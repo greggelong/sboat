@@ -35,7 +35,7 @@ function setup() {
   angleMode(DEGREES);
   bsz = windowWidth / 2;
   boat.resize(bsz, 0);
-  sky.resize(windowHeight, 0);
+
   x = 0;
   sz = width / 200;
   imageMode(CENTER);
