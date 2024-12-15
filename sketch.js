@@ -6,7 +6,7 @@ let yarr = [];
 let xarr = [];
 let zarr = [];
 let sz;
-let sky;
+
 let spots = [];
 let ssn = 136;
 let sundata;
@@ -15,7 +15,6 @@ let input;
 
 function preload() {
   boat = loadImage("metalboat1.png");
-  sky = loadImage("sky.png");
 }
 
 function setup() {
