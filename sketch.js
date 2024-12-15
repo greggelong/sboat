@@ -85,12 +85,14 @@ function draw() {
   //background(150,150,255);
   background(0);
   // y sky
+  /*
   fill(0, 0, 130);
   push();
   translate(width / 2, height / 2);
   rotate((frameCount / 5) % 360);
   image(sky, 0, 0);
   pop();
+  */
 
   // sunspots
   push();
