@@ -31,7 +31,7 @@ function setup() {
   makeSunSpots(ssn);
   print(spots);
   button.mousePressed(getdate);
-  input.input(getdate);
+  input.changed(getdate);
 
   angleMode(DEGREES);
   bsz = windowWidth / 2;
