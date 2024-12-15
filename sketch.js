@@ -49,7 +49,7 @@ function setup() {
       .catch(() => {
         // show permissionn dialog only the first time
         let button = createButton("click to allow access to sensors");
-        button.style("font-size", "24px");
+        button.style("font-size", "34px");
         button.center();
         button.mousePressed(requestAccess);
         throw error;
