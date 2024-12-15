@@ -31,6 +31,7 @@ function setup() {
   makeSunSpots(ssn);
   print(spots);
   button.mousePressed(getdate);
+  input.input(getdate);
 
   angleMode(DEGREES);
   bsz = windowWidth / 2;
@@ -98,8 +99,8 @@ function draw() {
   fill(0, 255, 0);
   text(ssn, 40, 40);
   translate(width / 2, height / 2);
-  fill(255, 255, 0);
-  ellipse(0, 0, width, height);
+  fill(255, 255, 0, 140);
+  ellipse(0, 0, width, width);
 
   for (let i = 0; i < spots.length; i++) {
     spots[i].move();
